@@ -1,0 +1,28 @@
+body {
+  background-color: #F5F5F5;
+}
+
+.heading { 
+  color: #FFF;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.addButton {
+  margin-left: 79%;
+}
+
+i { 
+  font-size: 64pt;
+}
+
+.temp {
+  font-size: 36pt;
+}
+
+.weather {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
