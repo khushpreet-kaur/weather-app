@@ -21,12 +21,14 @@ function renderWeather(data) {
 function addCity() {
 
   var city = document.getElementById("city").value;
-
   if ( city === "" ) {
     alert ( "Enter a city" );
   }
   else {
     getWeather(city, function(data) {
+      cities.push(city);
+      localStorage.setItem("city", JSON.stringify(data));
+      cities.push(data);
       renderWeather(data);
       $("#myModal").modal("hide");
     }); 
